@@ -6,7 +6,7 @@ HTML5 : Pour la structure et le contenu du site.
 CSS3 : Pour le style et la mise en page du site.  
 
 # Comment démarrer
-Clonez ce repository : git clone https://github.com/LamariAzzeddine/Youtube-clone.git 
+Clonez ce repository : git clone https://github.com/LamariAzzeddine/Netflix-clone.git   
 Ouvrez le fichier home.html dans votre navigateur pour voir le site en action.  
 
 <img src="Netflix clone/Screenshot/Interface 1.png" alt="Screenshot" style="display: block; margin: 0 auto; zoom: 50%;" />

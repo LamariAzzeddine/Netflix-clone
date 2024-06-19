@@ -1,0 +1,530 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* page1 */
+
+.header
+{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 25px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+}
+
+.header-left
+{
+    height: 100%;
+    width: 20%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+}
+
+.header-left h2
+{
+    color: #e50914;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.header-left h2:hover
+{
+    cursor: pointer;
+}
+
+.header-right
+{
+    height: 100%;
+    width: 55%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+
+}
+
+.header-right p
+{
+    display: inline-block;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: white;
+}
+
+
+.header-right button
+{
+    height: 65%;
+    padding: 5px 15px;
+    margin-left: 10px;
+    border-radius: 4px;
+    color: white;
+}
+
+.header-right .btn1
+{
+    width: 23%;
+    border: none;
+    background-color: #e50914;
+}
+
+.header-right .btn1:hover
+{
+    cursor: pointer;
+    background-color: #ff101c;
+}
+
+.header-right .btn2
+{
+   width: 18%;
+   border: 2px solid white;
+   background-color: black;
+}
+
+.header-right .btn2:hover
+{
+    cursor: pointer;
+    background-color:rgb(103, 97, 97);
+}
+
+.main-page1
+{
+    width: 100%;
+    height: 90vh;
+    background-color: #181818;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 25px;
+}
+
+.main-page1-top
+{
+    width: 55%;
+    height: 34%;
+    /* background-color:#ff101c; */
+}
+
+.main-page1-top h1
+{
+    font-weight: bold;
+    font-size: 3rem;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    margin-bottom: 6px;
+}
+
+.main-page1-top h3
+{
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: whitesmoke;
+}
+
+.main-page1-bottom 
+{
+    width: 100%;
+    height: 58%;
+    /* background-color: #ff101c; */
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.main-page1-bottom-titre
+{
+    width: 100%;
+    height: 15%;
+    /* background-color: yellow; */
+}
+
+.main-page1-bottom-titre h3
+{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+
+.main-page1-bottom-titre h3:hover
+{
+    cursor: pointer;
+}
+
+.main-page1-bottom-rectangle
+{
+    width: 100%;
+    height: 85%;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box
+{
+    width: 24.2%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+
+.box:hover
+{
+    cursor: pointer;
+    transform: scale(1.04);
+}
+
+.box-top
+{
+    width: 100%;
+    height: 75%;
+    /* background-color:blue; */
+}
+
+.box-top img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.box-bottom
+{
+    width: 100%;
+    height: 25%;
+    /* background-color:rgb(43, 255, 0); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7px;
+    color: whitesmoke;
+}
+
+.box-bottom p
+{
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+
+/* page 2......page 5 */
+
+.main-page1-categorie
+{
+    width: 100%;
+    height: 50%;
+    /* background-color: #ff101c; */
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.main-page1-categorie-titre
+{
+    width: 100%;
+    height: 15%;
+    /* background-color: yellow; */
+    margin-bottom: 3px;
+}
+
+.main-page1-categorie-titre h3
+{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+
+.main-page1-categorie-titre h3:hover
+{
+    cursor: pointer;
+}
+
+.main-page1-categorie-rectangle
+{
+    width: 100%;
+    height: 85%;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+/* page 6 avec le flou  */
+
+.main-page1-categorie2
+{
+    width: 100%;
+    height: 50%;
+    /* background-color: #ff101c; */
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 30px;
+
+    /* Le flou */
+    /* pou le flou, on met filter:blur(valeur) */
+
+    filter: blur(5px); /* Ajustez la valeur du flou selon vos préférences */
+
+}
+
+.main-page1-categorie2-titre
+{
+    width: 100%;
+    height: 15%;
+    /* background-color: yellow; */
+    margin-bottom: 3px;
+}
+
+.main-page1-categorie2-titre h3
+{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+
+.main-page1-categorie2-titre h3:hover
+{
+    cursor: pointer;
+}
+
+.main-page1-categorie2-rectangle
+{
+    width: 100%;
+    height: 105%;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.main-page1-categorie3
+{
+    width: 100%;
+    height: 50%;
+    /* background-color: #ff101c; */
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 30px;
+
+    /* Le flou */
+    /* pou le flou, on met filter:blur(valeur) */
+
+    filter: blur(5px); /* Ajustez la valeur du flou selon vos préférences */
+
+}
+
+.main-page1-categorie3-titre
+{
+    width: 100%;
+    height: 15%;
+    /* background-color: yellow; */
+    margin-bottom: 3px;
+}
+
+.main-page1-categorie3-titre h3
+{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+
+.main-page1-categorie3-titre h3:hover
+{
+    cursor: pointer;
+}
+
+.main-page1-categorie3-rectangle
+{
+    width: 100%;
+    height: 155%;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+/* page7 */
+
+.main-page7
+{
+    width: 100%;
+    height: 90vh;
+    background-color: #181818;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 25px;
+}
+
+.main-page7-contenu
+{
+    width: 75%;
+    height: 80%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.main-page7-contenu button
+{
+    border: none;
+    background-color: #e50914;
+    width: 25%;
+    height: 15%;
+    padding: 16px 40px;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    color: white;
+}
+
+.main-page7-contenu h1
+{
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+}
+
+.main-page7-contenu h2
+{
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.espace
+{
+    margin-bottom: 35px;
+}
+
+.main-page7-contenu button:hover
+{
+    cursor: pointer;
+    background-color: #ff101c;
+}
+
+
+/* page 8 */
+
+.main-page8
+{
+    width: 100%;
+    height: 90vh;
+    background-color: #181818;
+    display: flex;
+    padding: 40px 25px;
+}
+
+.main-page8-contenu
+{
+    width: 100%;
+    height: 80%;
+    /* background-color: #ceb0b0; */
+    margin-top: 110px;
+    color: #737373;
+    font-weight: bold;
+}
+
+
+.main-page8-contenu-top
+{
+    width: 100%;
+    height: 30%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-page8-contenu-top h3:hover
+{
+    cursor: pointer;
+    text-decoration: underline 1px #737373 ;
+}
+
+.main-page8-contenu-list
+{
+    width: 80%;
+    height: 50%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.liste
+{
+    width: 20%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    padding-top: 30px;
+}
+
+.liste ul
+{
+/* pour enlever les puces d'une liste */
+
+    list-style: none;
+
+}
+
+.liste ul li
+{
+    margin-bottom: 13px;
+}
+
+.liste ul li:hover
+{
+    cursor: pointer;
+    text-decoration: underline 1px #737373 ;
+}
+
+.main-page8-contenu-button
+{
+    width: 100%;
+    height: 20%;
+    /* background-color: rgb(192, 55, 181); */
+    padding-top: 20px;
+}
+
+.main-page8-contenu-button button
+{
+padding: 5px 10px;
+background-color: black;
+color: #737373;
+border: 2px solid #737373;
+border-radius: 4px;
+}
+
+.main-page8-contenu-button button:hover
+{
+    cursor: pointer;
+}
+
+
+.main-page8-contenu-button button .alligne
+{
+    display: flex;
+    align-items: center;
+
+}
+
+.main-page8-contenu-button button .alligne h3
+{
+    margin-left: 20px;
+}
